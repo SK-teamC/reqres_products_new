@@ -24,7 +24,7 @@ import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.BDDMockito.given;
 
-@RunWith(SpringRunner.class)    // junit4 와 springboot 를 연결해준다.
+@RunWith(SpringRunner.class)    // junit4 와 springboot 를 연결해준다. 
 // 통합테스트
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 //@EmbeddedKafka  // 테스트시 kafka 를 테스트용으로 돌리기 위하여 필요
